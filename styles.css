@@ -170,3 +170,13 @@ nav li {
   height: 2rem;
   border-radius: 12px;
 }
+
+.article-grid > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.article-grid article {
+  border: 1px solid #000;
+  height: 30vh;
+}
