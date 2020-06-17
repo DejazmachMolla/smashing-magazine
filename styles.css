@@ -28,8 +28,7 @@ nav {
 }
 
 nav > div, nav li {
-  border: 1px solid var(--color-blue);
-  
+
 }
 
 nav li {
@@ -38,7 +37,32 @@ nav li {
   display: inline-block;
 }
 
-.input-box {
+.important-1 {
+  background-color: var(--gray-1);
+}
+
+.important-2 {
+  background-color: var(--gray-2);
+}
+
+.important-3 {
+  background-color: var(--gray-3);
+}
+
+.important-4 {
+  background-color: var(--gray-4);
+}
+
+.important-5 {
+  background-color: var(--gray-5);
+}
+
+.important-6 {
+  background-color: var(--gray-6);
+}
+
+
+.search-box {
   width: 8rem;
   height: 2rem;
   width: 15%;
