@@ -75,17 +75,17 @@ nav li {
 
 .hero-section {
   display: grid;
-  grid-template: 50% 50% / 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh 70vh;
 }
 
-.hero-section div {
+.hero-section article {
   border: 1px solid var(--color-blue);
-  height: 100vh;
+  padding: 40vh 10% 0;
 }
 
 .hero-section div * {
   padding: .5em;
-  margin: .5em;
 }
 
 .hero-section div a.important-3 {
@@ -100,14 +100,14 @@ nav li {
   display: inline-block;
 }
 
-.hero-section .important-5 {
-  height: 1rem;
-  width: 2rem;
-}
-
 .hero-section .important-2 {
   width: 5rem;
   height: 3.5rem;
+}
+
+.hero-section .important-5 {
+  height: 1rem;
+  width: 2rem;
 }
 
 .hero-section a.important-4,
@@ -121,4 +121,52 @@ nav li {
 .title-container > *,
 .hero-section ul li {
   display: inline-block;
+}
+
+.title-container span {
+  width: 100px;
+  height: 1rem;
+}
+
+.arrow {
+  width: 50px;
+  height: 2rem;
+  position: absolute;
+  display: block;
+  bottom: 5%;
+  left: 5%;
+}
+
+.hero-cta {
+  position: absolute;
+  top: 15vh;  
+  width: 100%;
+}
+
+.hero-cta h3 {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.color-change {
+  position: absolute;
+  top: 15vh;  
+  right: 5%;
+  display: flex;
+  align-items: center
+}
+
+.color-change div:first-of-type {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  transform: rotate(-15deg);
+  margin-right: 1rem
+}
+
+.color-change div:nth-of-type(2) {
+  width: 100px;
+  height: 2rem;
+  border-radius: 12px;
 }
