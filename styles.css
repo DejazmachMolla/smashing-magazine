@@ -225,10 +225,45 @@ nav li {
 
 .second-row article h1 {
   text-align: center;
+  font-size: 3rem;
+  width: 80%;
+  margin: 5% auto;
 }
 
 .row2-image {
   width: 200px;
   height: 200px;
   margin: auto;
+}
+
+.second-row article > p {
+  height: 10rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 80px auto;
+}
+
+.action-container button,
+.action-container p {
+  width: 40%;
+  margin: 0 auto;
+  height: 2rem;
+}
+
+.action-container p {
+  margin-top: 10px;
+  height: 1rem;
+}
+
+.action-container p > a {
+  width: 60px;
+  height: 1rem;
+  display: inline-block;
+  float: right;
 }
