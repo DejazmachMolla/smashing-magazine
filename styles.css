@@ -283,3 +283,44 @@ nav li {
   height: 2rem;
   margin: 17vh auto;
 }
+
+.click-book {
+  height: 100vh;
+  border: 1px solid var(--color-blue);
+}
+
+.click-book header {
+  text-align: center;
+  
+}
+
+.click-book header h1 {
+  font-size: 3rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.click-book header p {
+  height: 2rem;
+  width: 15%;
+  margin: 7vh auto 5vh;
+}
+
+.click-book > p {
+  width: 50%;
+  height: 4rem;
+  margin: 40px auto;
+}
+
+.click-book button {
+  width: 20%;
+  height: 3rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.book-image {
+  height: 250px;
+  width: 200px;
+  margin: 30px auto 0;
+}
