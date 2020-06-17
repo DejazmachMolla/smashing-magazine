@@ -5,6 +5,8 @@
   --gray-4: rgba(51, 51, 51, 0.7);
   --gray-5: rgba(51, 51, 51, 0.6);
   --gray-6: rgba(51, 51, 51, 0.5);
+  --gray-7: rgba(51, 51, 51, 0.3);
+  --gray-8: rgba(51, 51, 51, 0.2);
   --color-blue: rgb(0, 151, 219);
 }
 
@@ -22,7 +24,6 @@ li {
 }
 
 nav {
-  border: 1px solid var(--color-blue);
   padding: 1rem;
   display: flex;
 }
@@ -61,10 +62,33 @@ nav li {
   background-color: var(--gray-6);
 }
 
+.important-7 {
+  background-color: var(--gray-7);
+}
+
+.important-8 {
+  background-color: var(--gray-8);
+}
 
 .search-box {
   width: 8rem;
   height: 2rem;
   width: 15%;
   float: right;
+}
+
+.hero-section {
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+
+.hero-section div {
+  border: 1px solid var(--color-blue);
+  height: 100vh;
+}
+
+.hero-section div a.important-3 {
+  height: 2rem;
+  width: 4rem;
+  display: block;
 }
