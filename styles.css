@@ -10,7 +10,7 @@
   --color-blue: rgb(0, 151, 219);
 }
 
-* {
+div, ul, body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,10 +26,6 @@ li {
 nav {
   padding: 1rem;
   display: flex;
-}
-
-nav > div, nav li {
-
 }
 
 nav li {
@@ -87,8 +83,42 @@ nav li {
   height: 100vh;
 }
 
+.hero-section div * {
+  padding: .5em;
+  margin: .5em;
+}
+
 .hero-section div a.important-3 {
+  height: 3rem;
+  width: 5rem;
+  display: block;
+}
+
+.hero-section li,
+.hero-section a.important-2,
+.hero-section span.important-5 {
+  display: inline-block;
+}
+
+.hero-section .important-5 {
+  height: 1rem;
+  width: 2rem;
+}
+
+.hero-section .important-2 {
+  width: 5rem;
+  height: 3.5rem;
+}
+
+.hero-section a.important-4,
+.hero-section li.important-4
+ {
   height: 2rem;
   width: 4rem;
-  display: block;
+}
+
+.author-container > *,
+.title-container > *,
+.hero-section ul li {
+  display: inline-block;
 }
