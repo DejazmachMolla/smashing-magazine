@@ -171,12 +171,64 @@ nav li {
   border-radius: 12px;
 }
 
-.article-grid > div {
+.first-row,
+.third-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .article-grid article {
   border: 1px solid #000;
-  height: 30vh;
+  min-height: 30vh;
+  padding: 30px;
+}
+
+.first-row article span,
+.third-row article span {
+  display: inline-block;
+  width: 4rem;
+  height: 1rem;
+}
+
+.first-row header p,
+.third-row header p {
+  width: 70%;
+  height: 1rem;
+}
+
+.first-row article > p,
+.third-row article > p {
+  height: 5rem;
+  margin-bottom: 6rem;
+}
+
+.first-row article,
+.third-row article {
+  position: relative;
+}
+
+.first-row article > a,
+.third-row article > a {
+  display: inline-block;
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  left: 0;
+  bottom: 0;
+}
+
+.second-row {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 2fr;
+}
+
+.second-row article h1 {
+  text-align: center;
+}
+
+.row2-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
