@@ -186,6 +186,7 @@ nav li {
   border: 1px solid #00b3ff;
   min-height: 50vh;
   padding: 3rem;
+  border-radius: 12px;
 }
 
 .color-change div:first-of-type {
@@ -241,8 +242,18 @@ nav li {
 .action-container button,
 .action-container p {
   width: 40%;
+}
+
+.action-container button {
+  margin: 0 auto 1.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 12px;
+}
+
+.action-container p {
   margin: 0 auto;
-  height: 2rem;
+  height: 1.3rem;
 }
 
 .click-book > p {
@@ -257,20 +268,21 @@ nav li {
 }
 
 .community-link-text > p {
-  width: 100%;
-  height: 200px;
+  width: 90%;
+  height: 50%;
+  margin: 2rem 0;
 }
 
 .design-systems p {
   width: 60%;
   height: 4.5rem;
-  margin: 3rem 0;
+  margin: 3rem 0 2rem;
 }
 
 .guide p {
   height: 8rem;
   width: 90%;
-  margin: 3.5rem 0 2.5rem;
+  margin: 3rem 0 2.5rem;
 }
 
 .newsletter > p {
@@ -289,13 +301,14 @@ nav li {
   display: block;
   width: 20%;
   height: 2rem;
-  margin: 17vh auto;
+  margin: 14vh auto;
 }
 
 .community-link-text > a {
   display: inline-block;
-  width: 8rem;
-  height: 1rem;
+  width: 10rem;
+  height: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .first-row h2 {
@@ -321,7 +334,7 @@ nav li {
 }
 
 .design-systems a {
-  width: 22%;
+  width: 25%;
   display: inline-block;
   height: 3.5rem;
   border-radius: 12px;
@@ -351,7 +364,7 @@ nav li {
 }
 
 .community-link-text > h1 {
-  width: 100%;
+  width: 90%;
   height: 3rem;
 }
 
@@ -383,13 +396,13 @@ nav li {
 
 .action-container p > a {
   width: 60px;
-  height: 1rem;
+  height: 1.3rem;
   display: inline-block;
   float: right;
 }
 
 .fifth-row {
-  height: 22vh;
+  height: 15vh;
 }
 
 .click-book {
@@ -408,46 +421,51 @@ nav li {
 }
 
 .click-book header p {
-  height: 2rem;
+  height: 1.3rem;
   width: 15%;
   margin: 7vh auto 5vh;
 }
 
 .click-book button {
   width: 20%;
-  height: 3rem;
+  height: 3.5rem;
   margin: 0 auto;
   display: block;
+  border: none;
+  border-radius: 12px;
 }
 
 .book-image {
-  height: 250px;
-  width: 500px;
-  margin: 30px auto 0;
+  height: 50vh;
+  width: 50%;
+  margin: 3.5rem auto 15vh
 }
 
 .person-of-the-week {
-  padding: 30px;
+  padding: 4rem;
   width: 100%;
-  height: 300px;
+  height: 50vh;
   display: flex;
-  align-items: center;
 }
 
 .photo {
-  width: 200px;
-  height: 200px;
-  margin-right: 2rem;
+  align-self: flex-end;
+  width: 230px;
+  height: 230px;
+  margin-right: 3.5rem;
+  transform: rotate(-15deg);
+  border-radius: 12px;
 }
 
 .person-text {
-  min-width: calc(100% - 300px);
+  min-width: calc(100% - 400px);
   height: 200px;
 }
 
 .person-text h4 {
-  width: 10rem;
-  height: 2rem;
+  width: 14rem;
+  height: 1.7rem;
+  margin-bottom: 3rem;
 }
 
 .community-links {
@@ -458,7 +476,7 @@ nav li {
 .community-link {
   height: 50vh;
   display: flex;
-  padding: 3rem;
+  padding: 3rem 1.5rem;
   border: 1px solid #000;
 }
 
@@ -469,7 +487,7 @@ nav li {
 .community-link-photo {
   height: 70px;
   width: 70px;
-  margin: 25px;
+  margin: 0 25px;
   border-radius: 12px;
   transform: rotate(-15deg);
 }
@@ -481,26 +499,32 @@ nav li {
 .design-systems {
   padding: 4rem;
   border: 1px solid #000;
-  height: 50vh;
+  height: 55vh;
   position: relative;
 }
 
 .design-systems h2 {
   max-width: 25%;
   font-size: 2.5rem;
+  margin-top: 1rem;
 }
 
 .design-systems aside {
   position: absolute;
   right: 10%;
-  height: 55vh;
-  width: 20%;
-  bottom: 35%;
+  height: 47vh;
+  width: 17%;
+  bottom: 27%;
   transform: rotate(-15deg);
+}
+
+.guides {
+  padding: 4rem;
 }
 
 .guide-grid {
   display: grid;
+  grid-gap: 3rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 2fr;
 }
@@ -508,7 +532,7 @@ nav li {
 .guide h2 a {
   width: 100%;
   display: block;
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 .newsletter-cat {
