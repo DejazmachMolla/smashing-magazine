@@ -92,9 +92,13 @@ nav li {
 }
 
 .hero-section article {
-  border: 1px solid var(--color-blue);
   padding: 40vh 10% 0;
   position: relative;
+}
+
+.hero-section article:nth-of-type(3),
+.hero-section article:nth-of-type(4) {
+  padding-top: 10vh;
 }
 
 .hero-section div a.important-3 {
@@ -128,7 +132,16 @@ nav li {
 .footer-top li {
   display: inline-block;
   width: 8rem;
-  height: 1.5rem;
+  height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.author-container {
+  margin-bottom: 1rem;
+}
+
+.author-container .community-link-photo {
+  margin-left: 0;
 }
 
 .author-container > *,
@@ -167,7 +180,6 @@ nav li {
 
 .hero-cta h3 {
   width: 30%;
-  /* height: 4rem; */
   margin: 0 auto;
   text-align: center;
   font-size: 2.5rem;
@@ -183,7 +195,6 @@ nav li {
 
 .guide-grid article,
 .guide-grid > div {
-  border: 1px solid #00b3ff;
   min-height: 50vh;
   padding: 3rem;
   border-radius: 12px;
@@ -210,7 +221,6 @@ nav li {
 }
 
 .article-grid article {
-  border: 1px solid #000;
   min-height: 30vh;
   padding: 30px;
 }
@@ -407,7 +417,6 @@ nav li {
 
 .click-book {
   min-height: 100vh;
-  border: 1px solid var(--color-blue);
 }
 
 .click-book header {
@@ -477,7 +486,6 @@ nav li {
   height: 50vh;
   display: flex;
   padding: 3rem 1.5rem;
-  border: 1px solid #000;
 }
 
 .community-link-text {
@@ -498,7 +506,6 @@ nav li {
 
 .design-systems {
   padding: 4rem;
-  border: 1px solid #000;
   min-height: 55vh;
   position: relative;
 }
@@ -564,7 +571,7 @@ nav li {
 }
 
 .footer-top {
-  border: 1px solid #00b3ff;
+  padding: 0 2.5rem;
 }
 
 .footer-top > h4 {
