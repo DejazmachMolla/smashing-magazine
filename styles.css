@@ -94,6 +94,7 @@ nav li {
 .hero-section article {
   border: 1px solid var(--color-blue);
   padding: 40vh 10% 0;
+  position: relative;
 }
 
 .hero-section div a.important-3 {
@@ -109,19 +110,19 @@ nav li {
 }
 
 .hero-section .important-2 {
-  width: 5rem;
-  height: 3.5rem;
+  width: 70%;
+  height: 6rem;
 }
 
 .hero-section .important-5 {
-  height: 1rem;
-  width: 2rem;
+  height: 2rem;
+  width: 6rem;
 }
 
 .hero-section a.important-4,
 .hero-section li.important-4 {
-  height: 2rem;
-  width: 4rem;
+  height: 3rem;
+  width: 8rem;
 }
 
 .footer-top li {
@@ -146,7 +147,7 @@ nav li {
 
 .title-container span {
   width: 100px;
-  height: 1rem;
+  height: 2rem;
 }
 
 .arrow {
@@ -154,26 +155,28 @@ nav li {
   height: 2rem;
   position: absolute;
   display: block;
-  bottom: 5%;
-  left: 5%;
+  bottom: 10%;
+  left: 10%;
 }
 
 .hero-cta {
   position: absolute;
-  top: 15vh;
+  top: 10vh;
   width: 100%;
 }
 
 .hero-cta h3 {
   width: 30%;
+  /* height: 4rem; */
   margin: 0 auto;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .color-change {
   position: absolute;
-  top: 15vh;
-  right: 5%;
+  top: 10vh;
+  right: 3rem;
   display: flex;
   align-items: center;
 }
@@ -194,7 +197,7 @@ nav li {
 }
 
 .color-change div:nth-of-type(2) {
-  width: 100px;
+  width: 150px;
   height: 2rem;
   border-radius: 12px;
 }
