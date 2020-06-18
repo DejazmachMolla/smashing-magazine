@@ -93,7 +93,7 @@ nav li {
 
 .important-9 {
   background-color: var(--gray-9);
-} 
+}
 
 .search-box {
   height: 3.5rem;
@@ -112,11 +112,6 @@ nav li {
 .hero-section article {
   padding: 40vh 10% 0;
   position: relative;
-}
-
-.hero-section article:nth-of-type(3),
-.hero-section article:nth-of-type(4) {
-  padding-top: 10vh;
 }
 
 .hero-section div a.important-3 {
@@ -156,6 +151,14 @@ nav li {
 
 .author-container {
   margin-bottom: 1rem;
+}
+
+.community-link-photo {
+  height: 70px;
+  width: 70px;
+  margin: 0 25px;
+  border-radius: 12px;
+  transform: rotate(-15deg);
 }
 
 .author-container .community-link-photo {
@@ -263,8 +266,8 @@ nav li {
 }
 
 .action-container p {
-  margin-top: 10px;
-  height: 1rem;
+  margin: 0 auto;
+  height: 1.3rem;
 }
 
 .action-container button,
@@ -277,11 +280,6 @@ nav li {
   height: 4rem;
   border: none;
   border-radius: 12px;
-}
-
-.action-container p {
-  margin: 0 auto;
-  height: 1.3rem;
 }
 
 .click-book > p {
@@ -352,6 +350,11 @@ nav li {
 .first-row article,
 .third-row article {
   position: relative;
+}
+
+.hero-section article:nth-of-type(3),
+.hero-section article:nth-of-type(4) {
+  padding-top: 10vh;
 }
 
 .more-links a {
@@ -466,7 +469,7 @@ nav li {
 .book-image {
   height: 50vh;
   width: 50%;
-  margin: 3.5rem auto 15vh
+  margin: 3.5rem auto 15vh;
 }
 
 .person-of-the-week {
@@ -509,14 +512,6 @@ nav li {
 
 .community-link-text {
   width: 80%;
-}
-
-.community-link-photo {
-  height: 70px;
-  width: 70px;
-  margin: 0 25px;
-  border-radius: 12px;
-  transform: rotate(-15deg);
 }
 
 .more-links {

@@ -1,7 +1,7 @@
 # Positioning and Floating element
 
 > This project is a heat map of the [Smashing Magazine](https://www.smashingmagazine.com/)  home page.
-> ![screenshot]()
+> ![screenshot](./screenshot.png)
 
 ## Navigation bar
 
