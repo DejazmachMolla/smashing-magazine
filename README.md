@@ -20,13 +20,13 @@
 
 :bust_in_silhouette: **@DejazmachMolla**
 
-- Github: [@githubhandle](https://github.com/DejazmachMolla)
+- Github: [@dejazmachMolla](https://github.com/DejazmachMolla)
 - Twitter: [@twitterhandle](https://twitter.com/DJATSS)
 - Linkedin: [linkedin](https://www.linkedin.com/in/dejazmach-getachew-027aabaa/)
 
 :bust_in_silhouette: **@m15e**
 
-- Github: [@githubhandle](https://github.com/m15e)
+- Github: [@m15e](https://github.com/m15e)
 
 ## :handshake: Contributing
 
