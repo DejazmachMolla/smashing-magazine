@@ -443,3 +443,42 @@ nav li {
   bottom: 35%;
   transform: rotate(-15deg);
 }
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.guide-grid article,
+.guide-grid div {
+  border: 1px solid #00b3ff;
+  min-height: 50vh;
+  padding: 3rem;
+}
+
+.guide span {
+  width: 35%;
+  height: 1.5rem;
+  display: inline-block;
+}
+
+.guide h2 a {
+  width: 100%;
+  display: block;
+  font-size: 3rem;
+}
+
+.guide p {
+  height: 8rem;
+  width: 90%;
+  margin: 3.5rem 0 2.5rem;
+}
+
+.guide a {
+  display: inline-block;
+  height: 4rem;
+  width: 55%;
+  border-radius: 12px;
+}
+
