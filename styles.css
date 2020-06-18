@@ -353,3 +353,37 @@ nav li {
   width: 100%;
   height: 200px;
 }
+
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.community-link {
+  height: 50vh;
+  /* display: flex; */
+}
+
+.community-link-text {
+  width: calc(100%-200px);
+}
+
+.community-link-photo {
+  height: 100px;
+  width: 100px;
+}
+.community-link-text > a {
+  display: inline-block;
+  width: 40px;
+  height: 1rem;
+}
+
+.community-link-text > h1 {
+  width: 100%;
+  height: 3rem;
+}
+
+.community-link-text > p {
+  width: 100%;
+  height: 200px;
+}
