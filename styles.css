@@ -229,8 +229,8 @@ nav li {
 .first-row article span,
 .third-row article span {
   display: inline-block;
-  width: 4rem;
-  height: 1rem;
+  width: 6rem;
+  height: 1.5rem;
 }
 
 .action-container p {
@@ -281,7 +281,8 @@ nav li {
 .first-row header p,
 .third-row header p {
   width: 70%;
-  height: 1rem;
+  margin: 0 0 2rem;
+  height: 2rem;
 }
 
 .fifth-row a {
@@ -297,10 +298,14 @@ nav li {
   height: 1rem;
 }
 
+.first-row h2 {
+  margin: 1rem 0 2rem;
+}
+
 .first-row article > p,
 .third-row article > p {
   height: 5rem;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 .first-row article,
