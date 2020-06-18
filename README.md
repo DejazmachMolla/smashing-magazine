@@ -3,24 +3,9 @@
 > This project is a heat map of the [Smashing Magazine](https://www.smashingmagazine.com/)  home page.
 > ![screenshot](./screenshot.png)
 
-## Navigation bar
+## Live Demo
 
-- The navbar consist of a logo, navigation links and a search field
-
-## Body
-
-- Latest articles
-- Latest posts and call to action boxes
-- Full width advertisement
-- Community links
-- Community links starts with a full width person of the week and lists the community links
-- An other full width advertisement
-- Our guides
-
-## Footer
-
-- Links to all articles on the top
-- About the website content and main links of the website on the bottom
+[Live Demo Link](https://rawcdn.githack.com/DejazmachMolla/smashing-magazine/556e6e83f153ba00c30c17824c5acf11dd253b1d/index.html)
 
 ## Built With
 
