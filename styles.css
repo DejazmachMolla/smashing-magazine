@@ -444,7 +444,7 @@ nav li {
 .person-of-the-week {
   padding: 4rem;
   width: 100%;
-  height: 50vh;
+  min-height: 55vh;
   display: flex;
 }
 
@@ -499,7 +499,7 @@ nav li {
 .design-systems {
   padding: 4rem;
   border: 1px solid #000;
-  height: 55vh;
+  min-height: 55vh;
   position: relative;
 }
 
@@ -512,8 +512,8 @@ nav li {
 .design-systems aside {
   position: absolute;
   right: 10%;
-  height: 47vh;
-  width: 17%;
+  height: 65vh;
+  width: 20%;
   bottom: 27%;
   transform: rotate(-15deg);
 }
@@ -599,4 +599,14 @@ nav li {
 .footer-bottom .bird,
 .footer-bottom .cat {
   margin: 6rem 7rem 2rem;
+}
+
+.back-to-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 12px;
+  transform: rotate(-15deg);
 }
