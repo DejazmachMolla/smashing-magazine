@@ -361,20 +361,25 @@ nav li {
 
 .community-link {
   height: 50vh;
-  /* display: flex; */
+  display: flex;
+  padding: 3rem;
+  border: 1px solid #000;
 }
 
 .community-link-text {
-  width: calc(100%-200px);
+  width: 80%;
 }
 
 .community-link-photo {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
+  margin: 25px;
+  border-radius: 12px;
+  transform: rotate(-15deg);
 }
 .community-link-text > a {
   display: inline-block;
-  width: 40px;
+  width: 8rem;
   height: 1rem;
 }
 
@@ -386,4 +391,55 @@ nav li {
 .community-link-text > p {
   width: 100%;
   height: 200px;
+}
+
+.more-links {
+  height: 20vh;
+}
+
+.more-links a {
+  width: 20%;
+  height: 2rem;
+  display: block;
+  margin: 15vh auto;
+}
+
+.design-systems {
+  padding: 4rem;
+  border: 1px solid #000;
+  height: 50vh;
+  position: relative;
+}
+
+.design-systems span {
+  height: 1.5rem;
+  width: 20%;
+  display: inline-block;
+}
+
+.design-systems h2 {
+  max-width: 25%;
+  font-size: 2.5rem;
+}
+
+.design-systems p {
+  width: 60%;
+  height: 4.5rem;
+  margin: 3rem 0; 
+}
+
+.design-systems a {
+  width: 22%;
+  display: inline-block;
+  height: 3.5rem;
+  border-radius: 12px;
+}
+
+.design-systems aside {
+  position: absolute;
+  right: 10%;
+  height: 55vh;
+  width: 20%;
+  bottom: 35%;
+  transform: rotate(-15deg);
 }
