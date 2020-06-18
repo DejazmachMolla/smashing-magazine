@@ -531,5 +531,28 @@ nav li {
 
 .footer-bottom {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.5fr 1fr;
+  margin-bottom: 4rem;
+}
+
+.footer-bottom .center * {
+  text-align: center;
+}
+
+.footer-bottom .center p {
+  width: 80%;
+  height: 8rem;
+  margin: 3rem auto 3rem;
+}
+
+.footer-bottom .center li {
+  height: 1.5rem;
+  width: 8rem;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.footer-bottom .bird,
+.footer-bottom .cat {
+  margin: 6rem 7rem 2rem;
 }
