@@ -1,4 +1,4 @@
-# Positioning and Floating element
+# Smashing Magazine Design Teardown
 
 > This project is a heat map of the [Smashing Magazine](https://www.smashingmagazine.com/)  home page.
 > ![screenshot](./screenshot.png)
